@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    position: absolute;
+    border: 1px solid red;
+    height: 100vh;
+    width: 100vw;
+    
+    animation: slide;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+section:nth-child(1){
+    background-image: url(image/99-999364_modern-flat-design-book-library.png);
+    background-size: cover;
+}
+section:nth-child(2){
+    background-image: url(image/electronic-online-library-poster-computer-books-people-character-reading-student-studying-e-book-reader-modern-156836057.jpg);
+    background-size: cover;
+}
+section:nth-child(3){
+    background-image: url(image/istockphoto-1224186490-1024x1024.jpg);
+    background-size: cover;
+}
